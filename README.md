@@ -17,4 +17,9 @@ gem "lita-telegram"
 ```ruby
 config.robot.adapter = :telegram
 config.adapters.telegram.telegram_token = ENV['TELEGRAM_TOKEN']
-`
+```
+
+## TODO
+
+* Tests
+* Handle sending/receiving different message types
