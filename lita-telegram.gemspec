@@ -3,8 +3,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.1.0"
   spec.authors       = ["Rob McFadzean"]
   spec.email         = ["root@sphericalcube.net"]
-  spec.description   = "Description"
-  spec.summary       = "Summary"
+  spec.description   = "Telegram handler for the Lita ChatOps framework"
+  spec.summary       = "Allows Lita to connect to and handle messages from the Telegram bot framework/API"
   spec.homepage      = "https://github.com/wonderbread/lita-telegram"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "adapter" }
