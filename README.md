@@ -1,6 +1,6 @@
 # lita-telegram
 
-TODO: Add a description of the plugin.
+Lita adapter for (Telegram Bots)[https://core.telegram.org/bots]. See the link for setup instructions.
 
 ## Installation
 
@@ -12,8 +12,9 @@ gem "lita-telegram"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+### lita_config.rb
 
-## Usage
-
-TODO: Describe the plugin's features and how to use them.
+```ruby
+config.robot.adapter = :telegram
+config.adapters.telegram.telegram_token = ENV['TELEGRAM_TOKEN']
+`
