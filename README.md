@@ -1,6 +1,6 @@
 # lita-telegram
 
-Lita adapter for (Telegram Bots)[https://core.telegram.org/bots]. See the link for setup instructions.
+Lita adapter for [Telegram Bots](https://core.telegram.org/bots). See the link for setup instructions.
 
 ## Installation
 
